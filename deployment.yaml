@@ -13,7 +13,7 @@ spec:
         app: supermariogame
     spec:
       containers:
-      - image: diliprathod/supermario-js-gitops:2
+      - image: diliprathod/supermario-js-gitops:3
         name: supermariogame-container
         ports:
         - containerPort: 8080
